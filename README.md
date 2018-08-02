@@ -1,26 +1,11 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+### 概要
+* WordpressのAPIを使用して、ブログ記事一覧を表示するためのアプリ
 
-## How to use this template
+### 機能
+* Lazy Loading
+* HTTP通信で記事一覧取得＆リスト表示（表示完了まではローダー表示）
+* リストタップ時に記事詳細ページへのプッシュ遷移
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
-
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
-
-### With the Ionic CLI:
-
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
-
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myBlank blank
-```
-
-Then, to run it, cd into `myBlank` and run:
-
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
-
-Substitute ios for android if not on a Mac.
-
+### 元記事
+* https://github.com/Ionic-jp/handbook
+* https://github.com/Ionic-jp/wp-tutorial

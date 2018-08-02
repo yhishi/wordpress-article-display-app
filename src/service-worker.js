@@ -3,7 +3,7 @@
  * more info on how to use sw-toolbox to custom configure your service worker.
  */
 
-a
+
 'use strict';
 importScripts('./build/sw-toolbox.js');
 
