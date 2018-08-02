@@ -1,6 +1,8 @@
 {
-  "name": "wordpress-test",
+  "name": "wp-tutorial",
   "app_id": "",
   "type": "ionic-angular",
-  "integrations": {}
+  "integrations": {
+    "cordova": {}
+  }
 }
